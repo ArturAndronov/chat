@@ -1,10 +1,12 @@
+import { Auth } from "./pages";
 
 const App = () => {
   return (
-    <>
-      <h1>Wassup</h1>
-    </>
+    <div className="wrapper">
+     <Auth />
+    </div>
   );
 }
 
 export default App;
+
