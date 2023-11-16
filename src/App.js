@@ -1,9 +1,16 @@
-import { Auth } from "./pages";
+import { Route, Routes } from "react-router";
+
+import { Auth, Home } from "./pages";
 
 const App = () => {
   return (
     <div className="wrapper">
-     <Auth />
+      <Routes>
+        <Route path='/' element={<Auth />} />
+        <Route path="/login" element={<Auth />} />
+        <Route path="/im" element={<Home />} />
+      </Routes>
+      
     </div>
   );
 }

@@ -1,7 +1,11 @@
+@import "~reset-css";
+
+
 body,
 html, 
 #root,
  .wrapper {
     height: 100%;
     color: #202020;
+    font-size: 14px;
 }

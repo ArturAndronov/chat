@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 class RegisterForm extends Component {
     render() {
-        const success = false;
+        const success = true;
 
         const onFinish = (values) => {
             console.log('Received values of form: ', values);
