@@ -6,11 +6,10 @@ const App = () => {
   return (
     <div className="wrapper">
       <Routes>
-        <Route path='/' element={<Auth />} />
-        <Route path="/login" element={<Auth />} />
+      <Route path="/*" element={<Auth />} />
         <Route path="/im" element={<Home />} />
       </Routes>
-      
+
     </div>
   );
 }

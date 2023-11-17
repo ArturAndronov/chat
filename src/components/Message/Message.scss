@@ -41,6 +41,21 @@
         line-height: 20px;
     }
 
+    &__attachments{
+        display: flex;
+        margin-bottom: 5px;
+        cursor: pointer;
+        &-item
+        {
+            margin-right: 5px;
+            img{
+                width: 45px;
+                height: 45px;
+                border-radius: 8px;
+            }
+        }
+    }
+
     &__icon-readed{
         position: absolute;
         left: -25px;
